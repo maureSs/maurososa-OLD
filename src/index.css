@@ -20,11 +20,23 @@ body {
   padding-top: 80px;
   display: block;
 }
+@media (max-width: 480px) {
+  .navbar {
+    width: 90px;
+  }
+}
 
 .navbar h1 {
   position: absolute;
   margin-top: -15%;
   padding-left: 10%;
+}
+@media (max-width: 480px) {
+  .navbar h1 {
+    margin-top: -150%;
+    padding-left: 3%;
+    font-size: 22px;
+  }
 }
 
 .navbar ul {
@@ -33,10 +45,22 @@ body {
   list-style-type: none;
   padding-left: 15%;
 }
+@media (max-width: 480px) {
+  .navbar ul {
+    padding: 20%;
+    padding-left: 0%;
+  }
+}
 
 .navbar h4 {
   position: absolute;
   padding-top: 60%;
+}
+@media (max-width: 480px) {
+  .navbar h4 {
+    padding-top: 50%;
+    font-size: 12px;
+  }
 }
 
 .navbar-item {
@@ -49,6 +73,12 @@ body {
   text-decoration: none;
   display: block;
   font-size: 20px;
+}
+@media (max-width: 480px) {
+  .navbar-item {
+    margin-top: 10%;
+    font-size: 18px;
+  }
 }
 
 .navbar-item:hover {
@@ -77,6 +107,11 @@ body {
   background-color: #383756;
   color: white;
 }
+@media (max-width: 480px) {
+  .main-container {
+    width: 300px;
+  }
+}
 
 .inner-container {
   width: 100%;
@@ -89,11 +124,24 @@ body {
   margin-left: 55%;
   margin-top: 10%;
 }
+@media (max-width: 480px) {
+  .inner-container {
+    width: 200px;
+    height: 80px;
+  }
+}
 
 .image-container {
   height: 150px;
   width: 150px;
   position: relative;
+}
+@media (max-width: 480px) {
+  .image-container {
+    height: 100px;
+    width: 100px;
+    padding-right: 25%;
+  }
 }
 
 .image-container img {
@@ -108,6 +156,12 @@ body {
   opacity: 0;
   transition: opacity 0.5s;
 }
+@media (max-width: 480px) {
+  .transition-image {
+    position: none;
+    transition: none;
+  }
+}
 
 .transition-image:hover {
   opacity: 1;
@@ -119,6 +173,11 @@ body {
   align-items: center;
   margin-left: 54%;
   margin-top: 1.5%;
+}
+@media (max-width: 480px) {
+  .description {
+    margin-left: 55%;
+  }
 }
 
 .social-media {
@@ -132,6 +191,13 @@ body {
   margin-top: 1.5%;
   position: relative;
 }
+@media (max-width: 480px) {
+  .social-media {
+    width: 100px;
+    height: 10px;
+    margin-top: 8%;
+  }
+}
 
 .social-media img {
   width: 20%;
@@ -140,6 +206,11 @@ body {
   transform: scale(1);
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
+}
+@media (max-width: 480px) {
+  .social-media img {
+    width: 25%;
+  }
 }
 
 .social-media img:hover {
@@ -153,6 +224,12 @@ body {
   position: absolute;
   margin: 10%;
 }
+@media (max-width: 480px) {
+  .shapes {
+    width: 40px;
+    margin: 5%;
+  }
+}
 
 .shape-circle {
   width: 100%;
@@ -160,12 +237,24 @@ body {
   position: absolute;
   margin: -20%;
 }
+@media (max-width: 480px) {
+  .shape-circle {
+    width: 30px;
+    margin: -38%;
+  }
+}
 
 .shape-circle2 {
   width: 100%;
   max-width: 50px;
   position: absolute;
   margin-left: -30%;
+}
+@media (max-width: 480px) {
+  .shape-circle2 {
+    width: 20px;
+    margin-left: -40%;
+  }
 }
 
 .shape-arrow {
@@ -175,6 +264,13 @@ body {
   margin-top: -15%;
   margin-left: 12%;
 }
+@media (max-width: 480px) {
+  .shape-arrow {
+    width: 20px;
+    margin-top: -50%;
+    margin-left: 5%;
+  }
+}
 
 .shape-curve {
   width: 100%;
@@ -182,6 +278,13 @@ body {
   position: absolute;
   margin-left: -20%;
   margin-top: 10%;
+}
+@media (max-width: 480px) {
+  .shape-curve {
+    width: 30px;
+    margin-left: -20%;
+    margin-top: 18%;
+  }
 }
 
 .shape-triangle {
@@ -191,12 +294,26 @@ body {
   margin-left: -20%;
   margin-top: -8%;
 }
+@media (max-width: 480px) {
+  .shape-triangle {
+    width: 30px;
+    margin-left: -35%;
+    margin-top: -75%;
+  }
+}
 
 .shape-paperPlane {
   width: 100%;
   max-width: 50px;
   position: absolute;
   margin-left: 15%;
+}
+@media (max-width: 480px) {
+  .shape-paperPlane {
+    width: 30px;
+    margin-left: 0%;
+    margin-top: -20%;
+  }
 }
 
 /* About */
@@ -212,10 +329,23 @@ body {
   font-family: 'Yu Gothic';
   text-align: center;
 }
+@media (max-width: 480px) {
+  .about-container {
+    width: 200px;
+    height: 80px;
+    font-size: 15px;
+  }
+}
 
 .about-container img {
   width: 450px;
 }
+@media (max-width: 480px) {
+  .about-container img {
+    width: 200px;
+  }
+}
+
 /* Projects */
 
 .projects-container {
@@ -226,6 +356,14 @@ body {
   margin-left: 32%;
   margin-top: 4%;
   font-size: 20px;
+}
+@media (max-width: 480px) {
+  .projects-container {
+    width: 250px;
+    height: 80px;
+    font-size: 15px;
+    margin-left: 22%;
+  }
 }
 
 .projects-container h4 {
@@ -239,16 +377,32 @@ body {
   justify-self: center;
   margin-bottom: 5%;
 }
+@media (max-width: 480px) {
+  .projects-title {
+    font-size: 20px;
+  }
+}
 
 .title {
-  padding-left: 2%;
-  padding-right: 2%;
+  padding-left: 5%;
+  padding-right: 7%;
   padding-top: -5%;
+}
+
+@media (max-width: 480px) {
+  .hide {
+    visibility: hidden;
+  }
 }
 
 .projects-subtitle {
   margin-bottom: 4%;
   padding-left: 17%;
+}
+@media (max-width: 480px) {
+  .projects-subtitle {
+    padding-left: 6%;
+  }
 }
 
 .project-btn {
@@ -264,6 +418,13 @@ body {
   font-family: 'MV Boli';
   margin-left: 25%;
   margin-top: 2%;
+}
+@media (max-width: 480px) {
+  .project-btn {
+    padding: 5px 15px;
+    font-size: 12px;
+    margin-left: 22%;
+  }
 }
 
 .project-btn:hover {
@@ -287,6 +448,14 @@ body {
   padding: 2% 2% 2% 2%;
   margin-left: 14%;
 }
+@media (max-width: 480px) {
+  .future-projects {
+    width: 200px;
+    padding: 0%;
+    margin-top: 6%;
+    margin-left: 5%;
+  }
+}
 
 /* Contact */
 
@@ -300,11 +469,24 @@ body {
   align-items: center;
   margin-left: 35%;
 }
+@media (max-width: 480px) {
+  .contact-container {
+    width: 300px;
+    height: 200px;
+    margin-left: 17%;
+  }
+}
 
 .form-control {
   width: 100%;
   max-width: 500px;
   height: 400px;
+}
+@media (max-width: 480px) {
+  .form-control {
+    width: 150px;
+    height: 80px;
+  }
 }
 
 .form-control input {
@@ -316,6 +498,11 @@ body {
   border-radius: 5px;
   outline: none;
 }
+@media (max-width: 480px) {
+  .form-control input {
+    width: 150px;
+  }
+}
 
 .message-input {
   height: 130px;
@@ -326,6 +513,12 @@ body {
   border-radius: 5px;
   outline: none;
   resize: none;
+}
+@media (max-width: 480px) {
+  .message-input {
+    width: 160px;
+    height: 80px;
+  }
 }
 
 .submit-btn {
@@ -353,6 +546,12 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 54%;
+}
+@media (max-width: 480px) {
+  .email-option {
+    margin-top: 60%;
+    margin-left: 40%;
+  }
 }
 
 .my-email:hover {

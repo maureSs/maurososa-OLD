@@ -7,9 +7,13 @@ export default function Projects() {
       <NavbarComponent />
       <div className='projects-container'>
         <h3 className='projects-title'>
-          <p style={{ color: '#E15C7D' }}>►►►►►►►►</p>{' '}
+          <p className='hide' style={{ color: '#E15C7D' }}>
+            ►►►►►►►►
+          </p>{' '}
           <p className='title'>Projects</p>{' '}
-          <p style={{ color: '#E15C7D' }}>◄◄◄◄◄◄◄◄</p>
+          <p className='hide' style={{ color: '#E15C7D' }}>
+            ◄◄◄◄◄◄◄◄
+          </p>
         </h3>
         <div style={{ paddingLeft: '16%' }}>
           <p className='projects-subtitle'>APPS THAT I HAVE MADE:</p>

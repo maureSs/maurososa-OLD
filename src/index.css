@@ -162,6 +162,7 @@ body {
   .transition-image {
     position: none;
     transition: none;
+    visibility: hidden;
   }
 }
 
@@ -178,7 +179,12 @@ body {
 }
 @media (max-width: 480px) {
   .description {
-    margin-left: 55%;
+    margin-left: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .description h2 {
+    margin-left: 5%;
   }
 }
 
@@ -198,6 +204,7 @@ body {
     width: 100px;
     height: 10px;
     margin-top: 8%;
+    margin-left: 50%;
   }
 }
 
@@ -255,7 +262,7 @@ body {
 @media (max-width: 480px) {
   .shape-circle2 {
     width: 20px;
-    margin-left: -40%;
+    margin-left: -35%;
   }
 }
 
@@ -270,7 +277,7 @@ body {
   .shape-arrow {
     width: 20px;
     margin-top: -50%;
-    margin-left: 5%;
+    margin-left: 10%;
   }
 }
 

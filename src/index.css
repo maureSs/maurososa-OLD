@@ -22,6 +22,7 @@ body {
 }
 @media (max-width: 480px) {
   .navbar {
+    height: 40%;
     width: 90px;
   }
 }
@@ -76,7 +77,7 @@ body {
 }
 @media (max-width: 480px) {
   .navbar-item {
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 18px;
   }
 }
@@ -110,6 +111,7 @@ body {
 @media (max-width: 480px) {
   .main-container {
     width: 300px;
+    min-height: 450px;
   }
 }
 
@@ -298,7 +300,7 @@ body {
   .shape-triangle {
     width: 30px;
     margin-left: -35%;
-    margin-top: -75%;
+    margin-top: -60%;
   }
 }
 

@@ -394,6 +394,7 @@ body {
   font-family: 'Ink Free';
   justify-self: center;
   margin-bottom: 5%;
+  margin-left: -4%;
 }
 @media (max-width: 480px) {
   .projects-title {

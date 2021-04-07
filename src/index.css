@@ -95,7 +95,8 @@ body {
 }
 @media (max-width: 480px) {
   .vl {
-    height: 600px;
+    margin-top: -160px;
+    height: 515px;
   }
 }
 
@@ -135,6 +136,7 @@ body {
   .inner-container {
     width: 200px;
     height: 80px;
+    margin-top: 20%;
   }
 }
 
@@ -281,7 +283,7 @@ body {
 @media (max-width: 480px) {
   .shape-arrow {
     width: 20px;
-    margin-top: -50%;
+    margin-top: -70%;
     margin-left: 10%;
   }
 }

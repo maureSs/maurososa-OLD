@@ -4,13 +4,7 @@ import pixelMe from '../images/pixelMe.png';
 import linkedin from '../images/linkedin.png';
 import twitter from '../images/twitter.png';
 import github from '../images/github.png';
-import asdd from '../images/asdd.png';
-import circle from '../images/circle.png';
-import circle2 from '../images/circle2.png';
-import arrow from '../images/arrow.png';
-import curve from '../images/curve.png';
-import triangle from '../images/triangle.png';
-import paperPlane from '../images/paperPlane.png';
+import asd from '../images/asd.png';
 
 function Home() {
   return (
@@ -63,13 +57,7 @@ function Home() {
           <img style={{ marginBottom: '-2%' }} src={github} alt='githubIcon' />
         </a>
       </div>
-      <img src={asdd} alt='' className='shapes' />
-      <img src={circle} alt='' className='shape-circle' />
-      <img src={circle2} alt='' className='shape-circle2' />
-      <img src={arrow} alt='' className='shape-arrow' />
-      <img src={curve} alt='' className='shape-curve' />
-      <img src={triangle} alt='' className='shape-triangle' />
-      <img src={paperPlane} alt='' className='shape-paperPlane' />
+      <img src={asd} alt='' className='asd' />
     </div>
   );
 }

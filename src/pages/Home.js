@@ -4,7 +4,6 @@ import pixelMe from '../images/pixelMe.png';
 import linkedin from '../images/linkedin.png';
 import twitter from '../images/twitter.png';
 import github from '../images/github.png';
-import asd from '../images/asd.png';
 
 function Home() {
   return (
@@ -57,7 +56,6 @@ function Home() {
           <img style={{ marginBottom: '-2%' }} src={github} alt='githubIcon' />
         </a>
       </div>
-      <img src={asd} alt='' className='asd' />
     </div>
   );
 }

@@ -18,14 +18,11 @@ function Home() {
         <h2
           style={{
             fontFamily: 'Segoe Print',
-            fontSize: 30,
           }}
         >
           Mauro Sosa
         </h2>
-        <h4
-          style={{ marginLeft: '13%', fontSize: 20, fontFamily: 'SimSun-ExtB' }}
-        >
+        <h4 style={{ marginLeft: '13%', fontFamily: 'SimSun-ExtB' }}>
           Web Developer
         </h4>
       </div>

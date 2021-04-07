@@ -192,6 +192,10 @@ body {
   margin-left: 54%;
   margin-top: 1.5%;
 }
+
+.description h2 {
+  font-size: 30px;
+}
 @media (max-width: 480px) {
   .description {
     margin-left: 50%;
@@ -200,6 +204,20 @@ body {
 @media (max-width: 480px) {
   .description h2 {
     margin-left: 5%;
+    font-size: 20px;
+    position: absolute;
+  }
+}
+
+.description h4 {
+  font-size: 20px;
+}
+@media (max-width: 480px) {
+  .description h4 {
+    font-size: 15px;
+    margin-top: 10%;
+    position: absolute;
+    margin-right: 5%;
   }
 }
 
@@ -218,7 +236,7 @@ body {
   .social-media {
     width: 100px;
     height: 10px;
-    margin-top: 8%;
+    margin-top: 22%;
     margin-left: 50%;
   }
 }

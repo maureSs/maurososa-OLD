@@ -242,6 +242,11 @@ body {
   margin-top: 10%;
   margin-left: 14%;
 }
+@media (max-width: 480px) {
+  .asd {
+    margin-left: 5%;
+  }
+}
 
 /* About */
 

@@ -14,7 +14,10 @@ export default function NavbarComponent() {
         <div>
           <li>
             <Link to='/' className='navbar-item'>
-              <AiOutlineHome style={{ marginBottom: -3 }}></AiOutlineHome>
+              <AiOutlineHome
+                className='res-item'
+                style={{ marginBottom: -3 }}
+              ></AiOutlineHome>
               <p style={{ display: 'inline-block', paddingLeft: '25%' }}>
                 Home
               </p>
@@ -22,7 +25,10 @@ export default function NavbarComponent() {
           </li>
           <li>
             <Link to='/about' className='navbar-item'>
-              <RiUser3Line style={{ marginBottom: -3 }}></RiUser3Line>{' '}
+              <RiUser3Line
+                className='res-item'
+                style={{ marginBottom: -3 }}
+              ></RiUser3Line>{' '}
               <p
                 style={{
                   display: 'inline-block',
@@ -37,7 +43,10 @@ export default function NavbarComponent() {
         <div>
           <li>
             <Link to='/projects' className='navbar-item'>
-              <MdFolderOpen style={{ marginBottom: -4 }}></MdFolderOpen>{' '}
+              <MdFolderOpen
+                className='res-item'
+                style={{ marginBottom: -4 }}
+              ></MdFolderOpen>{' '}
               <p
                 style={{
                   display: 'inline-block',
@@ -50,7 +59,10 @@ export default function NavbarComponent() {
           </li>
           <li>
             <Link to='/contact' className='navbar-item'>
-              <HiOutlineMail style={{ marginBottom: -4 }}></HiOutlineMail>{' '}
+              <HiOutlineMail
+                className='res-item'
+                style={{ marginBottom: -4 }}
+              ></HiOutlineMail>{' '}
               <p style={{ display: 'inline-block', paddingLeft: '20%' }}>
                 Contact
               </p>

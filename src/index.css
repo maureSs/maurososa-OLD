@@ -6,6 +6,18 @@
 body {
   background-image: url(./images/background.png);
 }
+@media (max-width: 480px) {
+  body {
+    background-image: none;
+    background-color: #464360;
+  }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  body {
+    background-image: none;
+    background-color: #464360;
+  }
+}
 
 /* Navigation Bar */
 
@@ -16,26 +28,27 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  margin-top: 100px;
-  padding-top: 80px;
+  margin-top: 180px;
   display: block;
 }
 @media (max-width: 480px) {
   .navbar {
-    height: 40%;
-    width: 90px;
+    height: 0;
+    max-width: 100px;
+    position: none;
+    z-index: none;
   }
 }
 
 .navbar h1 {
   position: absolute;
-  margin-top: -15%;
-  padding-left: 10%;
+  margin-top: -45px;
+  padding-left: 30px;
 }
 @media (max-width: 480px) {
   .navbar h1 {
-    margin-top: -150%;
-    padding-left: 3%;
+    margin-top: -100px;
+    padding-left: 10px;
     font-size: 22px;
   }
 }
@@ -48,10 +61,11 @@ body {
 }
 @media (max-width: 480px) {
   .navbar ul {
-    padding: 20%;
+    display: flex;
+    padding: 15px;
     padding-left: 0%;
-    margin-top: -65%;
-    margin-right: 60%;
+    margin-top: -60px;
+    margin-right: 0px;
   }
 }
 
@@ -63,6 +77,7 @@ body {
   .navbar h4 {
     padding-top: 90%;
     font-size: 12px;
+    display: none;
   }
 }
 
@@ -99,12 +114,22 @@ body {
   height: 900px;
   position: absolute;
   margin-left: 300px;
-  margin-top: -200px;
+  margin-top: -98px;
 }
 @media (max-width: 480px) {
   .vl {
-    margin-top: -170px;
-    height: 525px;
+    position: none;
+    border-left: none;
+    border-bottom: 15px solid #464360;
+    display: block;
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .vl {
+    height: 720px;
+    margin-top: -145px;
   }
 }
 
@@ -125,7 +150,17 @@ body {
 @media (max-width: 480px) {
   .main-container {
     width: 300px;
-    min-height: 450px;
+    min-height: 500px;
+    margin: 55px auto;
+    padding: 20px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .main-container {
+    width: 1050px;
+    min-height: 650px;
+    margin: 45px auto;
+    padding: 20px;
   }
 }
 
@@ -144,7 +179,7 @@ body {
   .inner-container {
     width: 200px;
     height: 80px;
-    margin-top: 25%;
+    margin-top: 200px;
   }
 }
 
@@ -158,6 +193,12 @@ body {
     height: 100px;
     width: 100px;
     padding-right: 25%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .image-container {
+    position: absolute;
+    margin-right: 370px;
   }
 }
 
@@ -280,6 +321,15 @@ body {
     font-size: 15px;
   }
 }
+@media (min-width: 800px) and (max-width: 1400px) {
+  .about-container {
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    margin-left: 450px;
+    margin-top: 80px;
+  }
+}
 
 .about-container img {
   width: 450px;
@@ -309,9 +359,29 @@ body {
     margin-left: 22%;
   }
 }
+@media (min-width: 800px) and (max-width: 1400px) {
+  .projects-container {
+    width: 650px;
+    height: 400px;
+    font-size: 18px;
+    margin-left: 360px;
+  }
+}
 
 .projects-container h4 {
   color: #5c8dcf;
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .projects-container h4 {
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+  .projects-body {
+    margin-right: 70px;
+  }
 }
 
 .projects-title {
@@ -327,11 +397,23 @@ body {
     font-size: 20px;
   }
 }
+@media (min-width: 800px) and (max-width: 1400px) {
+  .projects-title {
+    font-size: 30px;
+    margin-left: 15px;
+  }
+}
 
 .title {
   padding-left: 49px;
   padding-right: 70px;
   padding-top: -50px;
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -347,6 +429,11 @@ body {
 @media (max-width: 480px) {
   .projects-subtitle {
     padding-left: 6%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .projects-subtitle {
+    padding-left: 120px;
   }
 }
 
@@ -371,6 +458,12 @@ body {
     margin-left: 22%;
   }
 }
+@media (min-width: 800px) and (max-width: 1400px) {
+  .project-btn {
+    font-size: 14px;
+    margin-left: 180px;
+  }
+}
 
 .project-btn:hover {
   background-color: #ace8e8;
@@ -384,6 +477,12 @@ body {
 
 .projects-container a:hover {
   color: #ecc2c8;
+}
+
+@media (min-width: 800px) and (max-width: 1400px) {
+  .code-style {
+    padding-left: 70px;
+  }
 }
 
 .future-projects {
@@ -419,6 +518,13 @@ body {
     width: 300px;
     height: 200px;
     margin-left: 17%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .contact-container {
+    width: 550px;
+    height: 500px;
+    margin-left: 400px;
   }
 }
 
@@ -496,6 +602,12 @@ body {
   .email-option {
     margin-top: 60%;
     margin-left: 40%;
+  }
+}
+@media (min-width: 800px) and (max-width: 1400px) {
+  .email-option {
+    margin-top: 30px;
+    margin-left: 600px;
   }
 }
 

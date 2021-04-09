@@ -22,7 +22,7 @@ function Home() {
         >
           Mauro Sosa
         </h2>
-        <h4 style={{ marginLeft: '13%', fontFamily: 'SimSun-ExtB' }}>
+        <h4 style={{ marginLeft: 22, fontFamily: 'SimSun-ExtB' }}>
           Web Developer
         </h4>
       </div>

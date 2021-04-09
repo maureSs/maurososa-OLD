@@ -19,7 +19,7 @@ export default function Projects() {
           <p className='projects-subtitle'>APPS THAT I HAVE MADE:</p>
 
           <div className='projects-body'>
-            <div style={{ marginBottom: 38 }}>
+            <div className='mw-space'>
               <h4>Must-Watch</h4>
               <p>
                 Made with React.js and Firebase. An app to take notes of movies
@@ -44,7 +44,7 @@ export default function Projects() {
               </a>
             </div>
             <div>
-              <h4 style={{ paddingLeft: 175 }}>Meme Generator</h4>
+              <h4 className='meme'>Meme Generator</h4>
               <p>
                 Made with React.js. A fun final project from freeCodeCamp
                 course!

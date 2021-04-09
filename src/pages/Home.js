@@ -39,18 +39,14 @@ function Home() {
           href='https://twitter.com/maurososaa_'
           rel='noopener noreferrer'
         >
-          <img
-            style={{ marginBottom: '-2%' }}
-            src={twitter}
-            alt='twitterIcon'
-          />
+          <img style={{ marginBottom: -4 }} src={twitter} alt='twitterIcon' />
         </a>
         <a
           target='_blank'
           href='https://github.com/maureSs'
           rel='noopener noreferrer'
         >
-          <img style={{ marginBottom: '-2%' }} src={github} alt='githubIcon' />
+          <img style={{ marginBottom: -4 }} src={github} alt='githubIcon' />
         </a>
       </div>
     </div>

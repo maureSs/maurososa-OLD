@@ -18,9 +18,7 @@ export default function NavbarComponent() {
                 className='res-item'
                 style={{ marginBottom: -3 }}
               ></AiOutlineHome>
-              <p style={{ display: 'inline-block', paddingLeft: '25%' }}>
-                Home
-              </p>
+              <p style={{ display: 'inline-block', paddingLeft: 32 }}>Home</p>
             </Link>
           </li>
           <li>
@@ -32,7 +30,7 @@ export default function NavbarComponent() {
               <p
                 style={{
                   display: 'inline-block',
-                  paddingLeft: '20%',
+                  paddingLeft: 27,
                 }}
               >
                 About
@@ -50,7 +48,7 @@ export default function NavbarComponent() {
               <p
                 style={{
                   display: 'inline-block',
-                  paddingLeft: '20%',
+                  paddingLeft: 27,
                 }}
               >
                 Projects
@@ -63,7 +61,7 @@ export default function NavbarComponent() {
                 className='res-item'
                 style={{ marginBottom: -4 }}
               ></HiOutlineMail>{' '}
-              <p style={{ display: 'inline-block', paddingLeft: '20%' }}>
+              <p style={{ display: 'inline-block', paddingLeft: 26 }}>
                 Contact
               </p>
             </Link>

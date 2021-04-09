@@ -12,7 +12,7 @@ body {
     background-color: #464360;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   body {
     background-image: none;
     background-color: #464360;
@@ -39,7 +39,7 @@ body {
     z-index: none;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .navbar {
     height: 50%;
     width: 300px;
@@ -75,7 +75,7 @@ body {
     margin-right: 0px;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .navbar ul {
     margin-top: -50px;
   }
@@ -92,7 +92,7 @@ body {
     display: none;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .navbar h4 {
     padding-top: 100px;
   }
@@ -143,7 +143,7 @@ body {
     margin-top: 0%;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .vl {
     height: 720px;
     margin-top: -145px;
@@ -172,7 +172,7 @@ body {
     padding: 20px;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .main-container {
     width: 1050px;
     min-height: 600px;
@@ -212,7 +212,7 @@ body {
     padding-right: 25%;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .image-container {
     position: absolute;
     margin-right: 370px;
@@ -338,7 +338,7 @@ body {
     font-size: 15px;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .about-container {
     width: 500px;
     height: 200px;
@@ -376,7 +376,7 @@ body {
     margin-left: 22%;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .projects-container {
     width: 650px;
     height: 400px;
@@ -389,14 +389,14 @@ body {
 .projects-container h4 {
   color: #5c8dcf;
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .projects-container h4 {
     margin-left: 60px;
     margin-bottom: 10px;
   }
 }
 
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .projects-body {
     margin-right: 70px;
   }
@@ -415,7 +415,7 @@ body {
     font-size: 20px;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .projects-title {
     font-size: 30px;
     margin-left: 22px;
@@ -427,7 +427,7 @@ body {
   padding-right: 70px;
   padding-top: -50px;
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .title {
     padding-left: 20px;
     padding-right: 20px;
@@ -449,7 +449,7 @@ body {
     padding-left: 6%;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .projects-subtitle {
     padding-left: 120px;
   }
@@ -476,7 +476,7 @@ body {
     margin-left: 22%;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .project-btn {
     font-size: 14px;
     margin-left: 180px;
@@ -497,7 +497,7 @@ body {
   color: #ecc2c8;
 }
 
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .code-style {
     padding-left: 70px;
   }
@@ -538,7 +538,7 @@ body {
     margin-left: 17%;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .contact-container {
     width: 550px;
     height: 500px;
@@ -622,7 +622,7 @@ body {
     margin-left: 40%;
   }
 }
-@media (min-width: 800px) and (max-width: 1400px) {
+@media (min-width: 769px) and (max-width: 1400px) {
   .email-option {
     margin-top: 20px;
     margin-left: 600px;

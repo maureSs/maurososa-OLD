@@ -32,25 +32,19 @@ export default function Contact() {
         <form onSubmit={sendEmail}>
           <div className='form-control'>
             <label>
-              <h4 style={{ marginBottom: 7, fontSize: 20 }}>Your Name</h4>
+              <h4 className='extra'>Your Name</h4>
               <input type='text' placeholder='Name' name='name' />
             </label>
             <label>
-              <h4 style={{ marginBottom: 7, marginTop: 15, fontSize: 20 }}>
-                Your Email
-              </h4>
+              <h4 className='extra'>Your Email</h4>
               <input type='email' placeholder='Email Address' name='email' />
             </label>
             <label>
-              <h4 style={{ marginBottom: 7, marginTop: 15, fontSize: 20 }}>
-                Subject
-              </h4>
+              <h4 className='extra'>Subject</h4>
               <input type='text' placeholder='Subject' name='subject' />
             </label>
             <label>
-              <h4 style={{ marginBottom: 7, marginTop: 15, fontSize: 20 }}>
-                Your Message
-              </h4>
+              <h4 className='extra'>Your Message</h4>
               <textarea
                 className='message-input'
                 placeholder='Your message'

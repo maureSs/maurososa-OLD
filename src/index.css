@@ -40,9 +40,10 @@ body {
 @media (max-width: 480px) {
   .navbar {
     height: 0;
-    max-width: 100px;
+    width: 100px;
     position: none;
     z-index: none;
+    margin-top: 135px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -66,7 +67,7 @@ body {
 }
 @media (max-width: 480px) {
   .navbar h1 {
-    margin-top: -100px;
+    margin-top: -90px;
     padding-left: 10px;
     font-size: 22px;
   }
@@ -80,10 +81,11 @@ body {
 }
 @media (max-width: 480px) {
   .navbar ul {
-    display: flex;
-    padding: 15px;
-    padding-left: 0%;
-    margin-top: -60px;
+    display: inline-block;
+    margin: 90px;
+    padding: 10px;
+    padding-left: 5%;
+    margin-top: -90px;
     margin-right: 0px;
   }
 }
@@ -104,9 +106,8 @@ body {
 }
 @media (max-width: 480px) {
   .navbar h4 {
-    padding-top: 90%;
-    font-size: 12px;
-    display: none;
+    padding-top: 280px;
+    font-size: 10px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -144,7 +145,7 @@ body {
 
 @media (max-width: 480px) {
   .res-item {
-    padding-left: 9%;
+    display: none;
   }
 }
 
@@ -196,7 +197,7 @@ body {
   .main-container {
     width: 300px;
     min-height: 500px;
-    margin: 55px auto;
+    margin: 30px auto;
     padding: 20px;
   }
 }
@@ -232,7 +233,8 @@ body {
   .inner-container {
     width: 200px;
     height: 80px;
-    margin-top: 200px;
+    margin-top: 150px;
+    margin-left: 80px;
   }
 }
 
@@ -245,7 +247,6 @@ body {
   .image-container {
     height: 100px;
     width: 100px;
-    padding-right: 25%;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -298,12 +299,12 @@ body {
 }
 @media (max-width: 480px) {
   .description {
-    margin-left: 50%;
+    margin-left: 26%;
   }
 }
 @media (max-width: 480px) {
   .description h2 {
-    margin-left: 5%;
+    margin-left: 3%;
     font-size: 20px;
     position: absolute;
   }
@@ -334,10 +335,11 @@ body {
 }
 @media (max-width: 480px) {
   .social-media {
+    position: absolute;
     width: 100px;
     height: 10px;
     margin-top: 22%;
-    margin-left: 50%;
+    margin-left: 5%;
   }
 }
 
@@ -377,7 +379,9 @@ body {
   .about-container {
     width: 200px;
     height: 80px;
-    font-size: 15px;
+    font-size: 12px;
+    margin-left: 18%;
+    margin-top: 125px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -419,9 +423,10 @@ body {
 @media (max-width: 480px) {
   .projects-container {
     width: 250px;
-    height: 80px;
-    font-size: 15px;
-    margin-left: 22%;
+    height: 50px;
+    font-size: 12px;
+    margin-left: 0px;
+    margin-top: 125px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -445,6 +450,8 @@ body {
 
 .projects-container h4 {
   color: #5c8dcf;
+  padding-left: 190px;
+  margin-bottom: 10px;
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .projects-container h4 {
@@ -459,17 +466,6 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1400px) {
-  .projects-body {
-    margin-right: 70px;
-  }
-}
-@media (min-width: 1400px) and (max-width: 1919px) {
-  .projects-body {
-    margin-left: 15px;
-  }
-}
-
 .projects-title {
   display: flex;
   font-size: 40px;
@@ -480,7 +476,8 @@ body {
 }
 @media (max-width: 480px) {
   .projects-title {
-    font-size: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -526,7 +523,8 @@ body {
 }
 @media (max-width: 480px) {
   .projects-subtitle {
-    padding-left: 6%;
+    margin-bottom: 0px;
+    padding-left: 0%;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -537,6 +535,23 @@ body {
 @media (min-width: 1400px) and (max-width: 1919px) {
   .projects-subtitle {
     padding-left: 165px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-body {
+    margin-bottom: 0px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1400px) {
+  .projects-body {
+    margin-right: 70px;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .projects-body {
+    margin-left: 15px;
   }
 }
 
@@ -633,9 +648,10 @@ body {
 }
 @media (max-width: 480px) {
   .contact-container {
-    width: 300px;
-    height: 200px;
-    margin-left: 17%;
+    width: 200px;
+    height: 150px;
+    margin-left: 12%;
+    margin-top: 80px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -660,8 +676,9 @@ body {
 }
 @media (max-width: 480px) {
   .form-control {
-    width: 150px;
-    height: 80px;
+    width: 100px;
+    height: 50px;
+    font-size: 12px;
   }
 }
 
@@ -676,7 +693,8 @@ body {
 }
 @media (max-width: 480px) {
   .form-control input {
-    width: 150px;
+    width: 160px;
+    font-size: 15px;
   }
 }
 
@@ -692,8 +710,9 @@ body {
 }
 @media (max-width: 480px) {
   .message-input {
-    width: 160px;
-    height: 80px;
+    width: 165px;
+    height: 60px;
+    font-size: 15px;
   }
 }
 
@@ -725,8 +744,7 @@ body {
 }
 @media (max-width: 480px) {
   .email-option {
-    margin-top: 60%;
-    margin-left: 40%;
+    display: none;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -743,4 +761,17 @@ body {
 }
 .my-email:hover {
   color: skyblue;
+}
+
+.extra {
+  margin-bottom: 7px;
+  margin-top: 15px;
+  font-size: 20px;
+}
+@media (max-width: 480px) {
+  .extra {
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+  }
 }

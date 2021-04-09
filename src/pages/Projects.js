@@ -15,12 +15,12 @@ export default function Projects() {
             ◄◄◄◄◄◄◄◄
           </p>
         </h3>
-        <div style={{ paddingLeft: '16%' }}>
+        <div style={{ paddingLeft: 150 }}>
           <p className='projects-subtitle'>APPS THAT I HAVE MADE:</p>
 
           <div className='projects-body'>
-            <div style={{ marginBottom: '5%' }}>
-              <h4 style={{ paddingLeft: '24%' }}>Must-Watch</h4>
+            <div style={{ marginBottom: 38 }}>
+              <h4>Must-Watch</h4>
               <p>
                 Made with React.js and Firebase. An app to take notes of movies
                 <br />
@@ -35,7 +35,7 @@ export default function Projects() {
               </a>
               <a
                 className='code-style'
-                style={{ marginLeft: '27.5%', marginTop: '1%' }}
+                style={{ marginLeft: 222, marginTop: 10 }}
                 target='_blank'
                 href='https://github.com/maureSs/Must-Watch'
                 rel='noopener noreferrer'
@@ -44,7 +44,7 @@ export default function Projects() {
               </a>
             </div>
             <div>
-              <h4 style={{ paddingLeft: '21%' }}>Meme Generator</h4>
+              <h4 style={{ paddingLeft: 175 }}>Meme Generator</h4>
               <p>
                 Made with React.js. A fun final project from freeCodeCamp
                 course!
@@ -58,7 +58,7 @@ export default function Projects() {
               </a>
               <a
                 className='code-style'
-                style={{ marginLeft: '27.5%', marginTop: '1%' }}
+                style={{ marginLeft: 222, marginTop: 10 }}
                 target='_blank'
                 href='https://github.com/maureSs/Meme-Generator-App'
                 rel='noopener noreferrer'
@@ -69,7 +69,7 @@ export default function Projects() {
           </div>
 
           <div className='future-projects'>
-            <p style={{ paddingLeft: '9%', marginBottom: '2%' }}>
+            <p style={{ paddingLeft: 30, marginBottom: 10 }}>
               More coming soon...
             </p>
             <a

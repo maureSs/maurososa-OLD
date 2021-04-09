@@ -267,8 +267,8 @@ body {
   max-width: 600px;
   height: 200px;
   margin: 0 auto;
-  margin-left: 40%;
-  margin-top: 10%;
+  margin-left: 560px;
+  margin-top: 140px;
   font-size: 23px;
   font-family: 'Yu Gothic';
   text-align: center;
@@ -361,8 +361,8 @@ body {
   cursor: pointer;
   font-size: 16px;
   font-family: 'MV Boli';
-  margin-left: 25%;
-  margin-top: 2%;
+  margin-left: 200px;
+  margin-top: 16px;
 }
 @media (max-width: 480px) {
   .project-btn {
@@ -389,9 +389,9 @@ body {
 .future-projects {
   width: 100%;
   max-width: 300px;
-  margin-top: 3%;
+  margin-top: 25px;
   padding: 2% 2% 2% 2%;
-  margin-left: 14%;
+  margin-left: 115px;
 }
 @media (max-width: 480px) {
   .future-projects {
@@ -412,7 +412,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 35%;
+  margin-left: 490px;
 }
 @media (max-width: 480px) {
   .contact-container {
@@ -479,7 +479,7 @@ body {
   text-decoration: none;
   border: none;
   border-radius: 10px;
-  margin-left: 1%;
+  margin-left: 5px;
 }
 
 .submit-btn:hover {
@@ -490,7 +490,7 @@ body {
   display: inline-block;
   justify-content: center;
   align-items: center;
-  margin-left: 54%;
+  margin-left: 770px;
 }
 @media (max-width: 480px) {
   .email-option {

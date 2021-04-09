@@ -10,7 +10,6 @@ body {
   body {
     background-image: none;
     background-color: #464360;
-    overflow: auto;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -107,7 +106,7 @@ body {
 }
 @media (max-width: 480px) {
   .navbar h4 {
-    padding-top: 215px;
+    padding-top: 225px;
     font-size: 10px;
   }
 }
@@ -426,7 +425,7 @@ body {
   .projects-container {
     width: 450px;
     height: 300px;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: -150px;
     margin-top: 125px;
     overflow: auto;
@@ -628,7 +627,7 @@ body {
 @media (max-width: 480px) {
   .code-style {
     float: right;
-    margin-right: 120px;
+    margin-right: 130px;
   }
 }
 

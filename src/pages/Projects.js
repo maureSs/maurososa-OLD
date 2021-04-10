@@ -77,7 +77,7 @@ export default function Projects() {
               href='https://github.com/maureSs'
               rel='noopener noreferrer'
             >
-              Find my projects on Github!
+              Find my projects on GitHub!
             </a>
           </div>
         </div>

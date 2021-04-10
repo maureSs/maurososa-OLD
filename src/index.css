@@ -445,7 +445,7 @@ body {
   .projects-container {
     width: 670px;
     height: 400px;
-    font-size: 15px;
+    font-size: 12px;
     margin-left: 275px;
     margin-top: 5px;
   }
@@ -501,8 +501,8 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .projects-title {
-    font-size: 25px;
-    margin-left: 85px;
+    font-size: 18px;
+    margin-left: 145px;
     margin-bottom: 25px;
   }
 }
@@ -549,7 +549,7 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .projects-subtitle {
-    padding-left: 105px;
+    padding-left: 115px;
     margin-bottom: 20px;
   }
 }
@@ -667,7 +667,7 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .future-projects {
-    margin-left: 105px;
+    margin-left: 115px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {

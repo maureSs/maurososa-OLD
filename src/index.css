@@ -112,7 +112,7 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .navbar h4 {
-    padding-top: 100px;
+    padding-top: 30px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -168,14 +168,14 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .vl {
-    height: 650px;
+    height: 550px;
     margin-top: -80px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
   .vl {
     height: 658px;
-    margin-top: -102px;
+    margin-top: -150px;
   }
 }
 
@@ -204,8 +204,8 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .main-container {
-    width: 1050px;
-    min-height: 600px;
+    width: 950px;
+    min-height: 500px;
     margin: 45px auto;
     padding: 20px;
   }
@@ -238,6 +238,11 @@ body {
     margin-left: 80px;
   }
 }
+@media (min-width: 769px) and (max-width: 1400px) {
+  .inner-container {
+    margin-top: 80px;
+  }
+}
 
 .image-container {
   height: 150px;
@@ -253,7 +258,7 @@ body {
 @media (min-width: 769px) and (max-width: 1400px) {
   .image-container {
     position: absolute;
-    margin-right: 370px;
+    margin-right: 490px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -387,11 +392,11 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .about-container {
-    width: 500px;
+    width: 400px;
     height: 200px;
     font-size: 17px;
     margin-left: 450px;
-    margin-top: 80px;
+    margin-top: 45px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -407,6 +412,11 @@ body {
 @media (max-width: 480px) {
   .about-container img {
     width: 150px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1400px) {
+  .about-container img {
+    width: 300px;
   }
 }
 
@@ -433,11 +443,11 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .projects-container {
-    width: 650px;
+    width: 670px;
     height: 400px;
-    font-size: 18px;
-    margin-left: 360px;
-    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 275px;
+    margin-top: 5px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -463,7 +473,7 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .projects-container h4 {
-    margin-left: 60px;
+    margin-left: 0px;
     margin-bottom: 10px;
   }
 }
@@ -491,8 +501,9 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .projects-title {
-    font-size: 30px;
-    margin-left: 22px;
+    font-size: 25px;
+    margin-left: 85px;
+    margin-bottom: 25px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -538,7 +549,8 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .projects-subtitle {
-    padding-left: 120px;
+    padding-left: 105px;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -601,7 +613,8 @@ body {
 @media (min-width: 769px) and (max-width: 1400px) {
   .project-btn {
     font-size: 14px;
-    margin-left: 180px;
+    margin-left: 165px;
+    padding: 5px 15px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -631,11 +644,6 @@ body {
   }
 }
 
-@media (min-width: 769px) and (max-width: 1400px) {
-  .code-style {
-    padding-left: 70px;
-  }
-}
 @media (min-width: 1400px) and (max-width: 1919px) {
   .code-style {
     padding-left: 75px;
@@ -655,6 +663,11 @@ body {
     padding: 0%;
     margin-top: 40px;
     margin-left: 70px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1400px) {
+  .future-projects {
+    margin-left: 105px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -685,9 +698,9 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .contact-container {
-    width: 550px;
-    height: 500px;
-    margin-left: 400px;
+    width: 500px;
+    height: 350px;
+    margin-left: 360px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
@@ -778,8 +791,9 @@ body {
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .email-option {
-    margin-top: 20px;
-    margin-left: 600px;
+    margin-top: 100px;
+    margin-left: 540px;
+    font-size: 15px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {

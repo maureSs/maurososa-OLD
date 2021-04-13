@@ -88,7 +88,7 @@ body {
 }
 @media (max-width: 480px) {
   .navbar h4 {
-    padding-top: 225px;
+    padding-top: 255px;
     font-size: 10px;
   }
 }
@@ -178,8 +178,8 @@ body {
 @media (max-width: 480px) {
   .main-container {
     width: 300px;
-    min-height: 450px;
-    margin: 30px auto;
+    min-height: 500px;
+    margin: 20px auto;
     padding: 20px;
     overflow: hidden;
   }
@@ -368,10 +368,10 @@ body {
 @media (max-width: 480px) {
   .about-container {
     width: 200px;
-    height: 60px;
+    height: 50px;
     font-size: 14px;
     margin-left: 18%;
-    margin-top: 150px;
+    margin-top: 140px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -395,7 +395,8 @@ body {
 }
 @media (max-width: 480px) {
   .about-container img {
-    width: 150px;
+    width: 120px;
+    float: right;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -418,10 +419,10 @@ body {
 }
 @media (max-width: 480px) {
   .projects-container {
-    width: 450px;
-    height: 300px;
+    width: 300px;
+    height: 330px;
     font-size: 14px;
-    margin-left: -150px;
+    margin-left: -80px;
     margin-top: 125px;
     overflow: auto;
   }
@@ -478,7 +479,7 @@ body {
 }
 @media (max-width: 480px) {
   .projects-title {
-    font-size: 14px;
+    font-size: 25px;
     margin-bottom: 12px;
     margin-left: 0px;
   }
@@ -501,6 +502,11 @@ body {
   padding-left: 49px;
   padding-right: 60px;
   padding-top: -50px;
+}
+@media (max-width: 480px) {
+  .title {
+    padding-left: 0px;
+  }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .title {
@@ -581,7 +587,7 @@ body {
   .project-btn {
     padding: 5px 15px;
     font-size: 10px;
-    margin-left: 45%;
+    margin-left: 40%;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -618,7 +624,7 @@ body {
 @media (max-width: 480px) {
   .code-style {
     float: right;
-    margin-right: 128px;
+    margin-right: 132px;
   }
 }
 

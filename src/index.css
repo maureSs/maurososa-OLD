@@ -367,11 +367,11 @@ body {
 }
 @media (max-width: 480px) {
   .about-container {
-    width: 200px;
+    width: 250px;
     height: 50px;
-    font-size: 14px;
-    margin-left: 18%;
-    margin-top: 140px;
+    font-size: 15px;
+    margin-left: 25px;
+    margin-top: 150px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -395,7 +395,7 @@ body {
 }
 @media (max-width: 480px) {
   .about-container img {
-    width: 120px;
+    width: 140px;
     float: right;
   }
 }
@@ -624,7 +624,7 @@ body {
 @media (max-width: 480px) {
   .code-style {
     float: right;
-    margin-right: 132px;
+    margin-right: 145px;
   }
 }
 
@@ -681,8 +681,8 @@ body {
   .contact-container {
     width: 200px;
     height: 150px;
-    margin-left: 12%;
-    margin-top: 80px;
+    margin-left: 15px;
+    margin-top: 110px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
@@ -709,7 +709,7 @@ body {
   .form-control {
     width: 100px;
     height: 50px;
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -724,7 +724,7 @@ body {
 }
 @media (max-width: 480px) {
   .form-control input {
-    width: 160px;
+    width: 180px;
     font-size: 12px;
   }
 }
@@ -741,7 +741,7 @@ body {
 }
 @media (max-width: 480px) {
   .message-input {
-    width: 165px;
+    width: 185px;
     height: 60px;
     font-size: 15px;
   }

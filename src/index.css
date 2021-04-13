@@ -88,7 +88,7 @@ body {
 }
 @media (max-width: 480px) {
   .navbar h4 {
-    padding-top: 255px;
+    padding-top: 215px;
     font-size: 10px;
   }
 }
@@ -178,7 +178,7 @@ body {
 @media (max-width: 480px) {
   .main-container {
     width: 300px;
-    min-height: 500px;
+    min-height: 450px;
     margin: 20px auto;
     padding: 20px;
     overflow: hidden;

@@ -7,15 +7,9 @@ export default function Projects() {
       <NavbarComponent />
       <div className='projects-container'>
         <h3 className='projects-title'>
-          <p className='hide' style={{ color: '#E15C7D' }}>
-            ►►►►►►►►
-          </p>{' '}
           <p className='title'>Projects</p>{' '}
-          <p className='hide' style={{ color: '#E15C7D' }}>
-            ◄◄◄◄◄◄◄◄
-          </p>
         </h3>
-        <div style={{ paddingLeft: 150 }}>
+        <div>
           <p className='projects-subtitle'>APPS THAT I HAVE MADE:</p>
 
           <div className='projects-body'>
@@ -35,7 +29,6 @@ export default function Projects() {
               </a>
               <a
                 className='code-style'
-                style={{ marginLeft: 222, marginTop: 10 }}
                 target='_blank'
                 href='https://github.com/maureSs/Must-Watch'
                 rel='noopener noreferrer'
@@ -58,7 +51,6 @@ export default function Projects() {
               </a>
               <a
                 className='code-style'
-                style={{ marginLeft: 222, marginTop: 10 }}
                 target='_blank'
                 href='https://github.com/maureSs/Meme-Generator-App'
                 rel='noopener noreferrer'
@@ -69,9 +61,7 @@ export default function Projects() {
           </div>
 
           <div className='future-projects'>
-            <p style={{ paddingLeft: 30, marginBottom: 10 }}>
-              More coming soon...
-            </p>
+            <p className='coming-soon'>More coming soon...</p>
             <a
               target='_blank'
               href='https://github.com/maureSs'

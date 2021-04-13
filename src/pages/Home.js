@@ -15,16 +15,8 @@ function Home() {
         </div>
       </div>
       <div className='description'>
-        <h2
-          style={{
-            fontFamily: 'Segoe Print',
-          }}
-        >
-          Mauro Sosa
-        </h2>
-        <h4 style={{ marginLeft: 22, fontFamily: 'SimSun-ExtB' }}>
-          Web Developer
-        </h4>
+        <h2>Mauro Sosa</h2>
+        <h4>Web Developer</h4>
       </div>
       <div className='social-media'>
         <a

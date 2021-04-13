@@ -4,25 +4,7 @@
 }
 
 body {
-  background-image: url(./images/background.png);
-}
-@media (max-width: 480px) {
-  body {
-    background-image: none;
-    background-color: #464360;
-  }
-}
-@media (min-width: 769px) and (max-width: 1400px) {
-  body {
-    background-image: none;
-    background-color: #464360;
-  }
-}
-@media (min-width: 1400px) and (max-width: 1919px) {
-  body {
-    background-image: none;
-    background-color: #464360;
-  }
+  background-color: #464360;
 }
 
 /* Navigation Bar */
@@ -102,7 +84,7 @@ body {
 
 .navbar h4 {
   position: absolute;
-  padding-top: 180px;
+  padding-top: 75px;
 }
 @media (max-width: 480px) {
   .navbar h4 {
@@ -151,10 +133,10 @@ body {
 
 .vl {
   border-left: 6px solid #464360;
-  height: 900px;
+  height: 680px;
   position: absolute;
   margin-left: 300px;
-  margin-top: -98px;
+  margin-top: -85px;
 }
 @media (max-width: 480px) {
   .vl {
@@ -183,10 +165,10 @@ body {
 
 .main-container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1200px;
   margin: 95px auto;
   overflow: auto;
-  min-height: 700px;
+  min-height: 600px;
   border: 1px solid #383756;
   padding: 30px;
   border-radius: 30px;
@@ -221,14 +203,14 @@ body {
 
 .inner-container {
   width: 100%;
-  max-width: 150px;
-  height: 150px;
+  max-width: 200px;
+  height: 200px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 770px;
   margin-top: 140px;
+  padding-left: 280px;
 }
 @media (max-width: 480px) {
   .inner-container {
@@ -297,11 +279,11 @@ body {
   justify-content: center;
   align-items: center;
   margin-left: 54%;
-  margin-top: 1.5%;
 }
 
 .description h2 {
   font-size: 30px;
+  font-family: 'Segoe Print';
 }
 @media (max-width: 480px) {
   .description {
@@ -318,6 +300,8 @@ body {
 
 .description h4 {
   font-size: 20px;
+  margin-left: 22px;
+  font-family: 'SimSun-ExtB';
 }
 @media (max-width: 480px) {
   .description h4 {
@@ -372,12 +356,12 @@ body {
 
 .about-container {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   height: 200px;
   margin: 0 auto;
-  margin-left: 560px;
+  margin-left: 500px;
   margin-top: 80px;
-  font-size: 23px;
+  font-size: 19px;
   font-family: 'Yu Gothic';
   text-align: center;
 }
@@ -407,7 +391,7 @@ body {
 }
 
 .about-container img {
-  width: 450px;
+  width: 350px;
 }
 @media (max-width: 480px) {
   .about-container img {
@@ -424,12 +408,13 @@ body {
 
 .projects-container {
   width: 100%;
-  max-width: 950px;
-  height: 600px;
+  max-width: 600px;
+  height: 500px;
   margin: 0 auto;
   margin-left: 450px;
-  margin-top: 56px;
-  font-size: 20px;
+  margin-top: 15px;
+  font-size: 18px;
+  padding-left: 85px;
 }
 @media (max-width: 480px) {
   .projects-container {
@@ -488,9 +473,8 @@ body {
   display: flex;
   font-size: 40px;
   font-family: 'Ink Free';
-  justify-self: center;
-  margin-bottom: 48px;
-  margin-left: -38px;
+  margin-bottom: 30px;
+  margin-left: 120px;
 }
 @media (max-width: 480px) {
   .projects-title {
@@ -531,12 +515,6 @@ body {
   }
 }
 
-@media (max-width: 480px) {
-  .hide {
-    visibility: hidden;
-  }
-}
-
 .projects-subtitle {
   margin-bottom: 32px;
   padding-left: 136px;
@@ -566,10 +544,6 @@ body {
   .mw-space {
     margin-bottom: 0px;
   }
-}
-
-.meme {
-  padding-left: 175px;
 }
 
 @media (max-width: 480px) {
@@ -637,6 +611,10 @@ body {
   color: #ecc2c8;
 }
 
+.code-style {
+  margin-left: 222px;
+  margin-top: 10px;
+}
 @media (max-width: 480px) {
   .code-style {
     float: right;
@@ -676,17 +654,22 @@ body {
   }
 }
 
+.coming-soon {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
 /* Contact */
 
 .contact-container {
   width: 100%;
-  max-width: 750px;
-  height: 600px;
+  max-width: 500px;
+  height: 500px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 490px;
+  margin-left: 500px;
 }
 @media (max-width: 480px) {
   .contact-container {
@@ -776,34 +759,6 @@ body {
 
 .submit-btn:hover {
   background-color: #8cb5cf;
-}
-
-.email-option {
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  margin-left: 770px;
-}
-@media (max-width: 480px) {
-  .email-option {
-    display: none;
-  }
-}
-@media (min-width: 769px) and (max-width: 1400px) {
-  .email-option {
-    margin-top: 100px;
-    margin-left: 540px;
-    font-size: 15px;
-  }
-}
-@media (min-width: 1400px) and (max-width: 1919px) {
-  .email-option {
-    margin-top: 20px;
-    margin-left: 680px;
-  }
-}
-.my-email:hover {
-  color: skyblue;
 }
 
 .extra {

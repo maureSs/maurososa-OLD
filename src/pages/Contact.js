@@ -59,11 +59,6 @@ export default function Contact() {
           </div>
         </form>
       </div>
-      <div className='email-option'>
-        {' '}
-        <p style={{ paddingLeft: 65, paddingBottom: 10 }}>Or...</p>
-        <p className='my-email'>maurososa118@gmail.com</p>
-      </div>
     </div>
   );
 }

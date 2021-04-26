@@ -21,7 +21,7 @@ function Home() {
       <div className='social-media'>
         <a
           target='_blank'
-          href='https://www.linkedin.com/in/mauro-sosa-32332920b/'
+          href='https://www.linkedin.com/in/sosamauro/'
           rel='noopener noreferrer'
         >
           <img src={linkedin} alt='linkedinIcon' />

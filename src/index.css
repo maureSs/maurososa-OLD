@@ -684,6 +684,25 @@ body {
 
 /* Contact */
 
+.open-form-button {
+  background-color: #6cd1b7;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  font-family: 'Candara';
+  border: 2px dotted whitesmoke;
+  border-radius: 20px;
+}
+
+.open-form-button:hover {
+  background-color: #8de1cc;
+}
+
 .contact-container {
   width: 100%;
   max-width: 500px;

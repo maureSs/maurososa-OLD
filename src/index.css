@@ -588,6 +588,7 @@ body {
   font-family: 'MV Boli';
   margin-left: 200px;
   margin-top: 16px;
+  border-radius: 10px;
 }
 @media (max-width: 480px) {
   .project-btn {
@@ -695,7 +696,6 @@ body {
   font-size: 25px;
   cursor: pointer;
   font-family: 'Candara';
-  border: 2px dotted whitesmoke;
   border-radius: 20px;
 }
 @media (max-width: 480px) {

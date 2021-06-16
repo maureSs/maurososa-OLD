@@ -1,5 +1,8 @@
 import React from 'react';
 import NavbarComponent from '../components/NavbarComponent';
+import mustWatch from '../images/mustWatch.png';
+import gamingStore from '../images/gamingStore.png';
+import quizAE from '../images/quizAE.png';
 
 export default function Projects() {
   return (
@@ -9,68 +12,39 @@ export default function Projects() {
         <h3 className='projects-title'>
           <p className='title'>Projects</p>{' '}
         </h3>
-        <div>
-          <p className='projects-subtitle'>APPS THAT I HAVE MADE:</p>
-
-          <div className='projects-body'>
-            <div className='mw-space'>
-              <h4>Must-Watch</h4>
-              <p>
-                Made with React.js and Firebase. An app to take notes of movies
-                <br />
-                and tv shows you want to watch in the future.
-              </p>
-              <a
-                target='_blank'
-                href='https://must-watch-81fcf.web.app/'
-                rel='noopener noreferrer'
-              >
-                <button className='project-btn'>Visit</button>
-              </a>
-              <a
-                className='code-style'
-                target='_blank'
-                href='https://github.com/maureSs/Must-Watch'
-                rel='noopener noreferrer'
-              >
-                code
-              </a>
-            </div>
-            <div>
-              <h4 className='meme'>Meme Generator</h4>
-              <p>
-                Made with React.js. A fun final project from freeCodeCamp
-                course!
-              </p>
-              <a
-                target='_blank'
-                href='https://maures-meme-generator.netlify.app/'
-                rel='noopener noreferrer'
-              >
-                <button className='project-btn'>Visit</button>
-              </a>
-              <a
-                className='code-style'
-                target='_blank'
-                href='https://github.com/maureSs/Meme-Generator-App'
-                rel='noopener noreferrer'
-              >
-                code
-              </a>
-            </div>
-          </div>
-
-          <div className='future-projects'>
-            <p className='coming-soon'>More coming soon...</p>
-            <a
-              target='_blank'
-              href='https://github.com/maureSs'
-              rel='noopener noreferrer'
-            >
-              Find my projects on GitHub!
-            </a>
-          </div>
+        <div className='projects-style'>
+          <a
+            target='_blank'
+            href='https://must-watch-81fcf.web.app/'
+            rel='noopener noreferrer'
+          >
+            <img src={mustWatch} alt='mustWatchImage' />
+          </a>
+          <a
+            target='_blank'
+            href='https://gaming-store.netlify.app/'
+            rel='noopener noreferrer'
+          >
+            <img src={gamingStore} alt='gamingStoreImage' />
+          </a>
+          <a
+            target='_blank'
+            href='https://quiz-about-everything.netlify.app/'
+            rel='noopener noreferrer'
+          >
+            <img src={quizAE} alt='quizAEImage' />
+          </a>
         </div>
+      </div>
+      <div className='future-projects'>
+        <a
+          className='find-more-style'
+          target='_blank'
+          href='https://github.com/maureSs'
+          rel='noopener noreferrer'
+        >
+          Find all my projects on GitHub!
+        </a>
       </div>
     </div>
   );

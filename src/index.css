@@ -587,30 +587,88 @@ body {
 
 /* Contact */
 
-.open-form-button {
-  background-color: #5c5cb4;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  cursor: pointer;
-  font-family: 'Candara';
-  border-radius: 20px;
+.button-wrapper {
+  position: fixed;
+  top: 40%;
+  left: 58%;
+  transform: translate(-50%, -50%);
 }
 @media (max-width: 480px) {
-  .open-form-button {
-    margin-top: 120px;
-    margin-left: 60px;
-    padding: 10px 25px;
-    font-size: 20px;
+  .button-wrapper {
+    top: 30%;
+    left: 50%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1400px) {
+  .button-wrapper {
+    top: 30%;
+    left: 65%;
+  }
+}
+@media (min-width: 1400px) and (max-width: 1919px) {
+  .button-wrapper {
+    top: 35%;
+    left: 60%;
   }
 }
 
+.link-wrapper {
+  position: relative;
+}
+
+.open-form-button {
+  display: block;
+  width: 250px;
+  height: 50px;
+  line-height: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #383756;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 3px solid #fff;
+  transition: all 0.35s;
+}
+@media (max-width: 480px) {
+  .open-form-button {
+    width: 200px;
+  }
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 3px solid transparent;
+  position: absolute;
+  transform: rotate(45deg);
+  right: 0;
+  top: 0;
+  z-index: -1;
+  transition: all 0.35s;
+}
+
+.icon svg {
+  width: 30px;
+  position: absolute;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+  transform: rotate(-45deg);
+  fill: #5de7d4;
+  transition: all 0.35s;
+}
+
 .open-form-button:hover {
-  background-color: #8de1cc;
+  width: 200px;
+  border: 3px solid #5de7d4;
+  background: transparent;
+  color: #5de7d4;
+}
+
+.open-form-button:hover + .icon {
+  border: 3px solid #5de7d4;
+  right: -25%;
 }
 
 .contact-container {

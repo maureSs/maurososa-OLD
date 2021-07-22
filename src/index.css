@@ -356,12 +356,12 @@ body {
 
 .about-container {
   width: 100%;
-  max-width: 500px;
+  max-width: 510px;
   height: 200px;
   margin: 0 auto;
   margin-left: 500px;
-  margin-top: 80px;
-  font-size: 19px;
+  margin-top: 60px;
+  font-size: 15px;
   font-family: 'Yu Gothic';
   text-align: center;
 }
@@ -369,16 +369,16 @@ body {
   .about-container {
     width: 250px;
     height: 50px;
-    font-size: 15px;
+    font-size: 11px;
     margin-left: 25px;
-    margin-top: 150px;
+    margin-top: 145px;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .about-container {
     width: 400px;
     height: 200px;
-    font-size: 17px;
+    font-size: 14px;
     margin-left: 425px;
     margin-top: 45px;
   }
@@ -391,22 +391,21 @@ body {
 }
 
 .about-container img {
-  width: 350px;
+  width: 270px;
 }
 @media (max-width: 480px) {
   .about-container img {
-    width: 140px;
-    float: right;
+    display: none;
   }
 }
 @media (min-width: 769px) and (max-width: 1400px) {
   .about-container img {
-    width: 280px;
+    width: 220px;
   }
 }
 @media (min-width: 1400px) and (max-width: 1919px) {
   .about-container img {
-    width: 300px;
+    width: 240px;
   }
 }
 

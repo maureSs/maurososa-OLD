@@ -594,7 +594,7 @@ body {
 }
 @media (max-width: 480px) {
   .button-wrapper {
-    top: 38%;
+    top: 45%;
     left: 50%;
   }
 }

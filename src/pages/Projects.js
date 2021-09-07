@@ -1,8 +1,8 @@
 import React from 'react';
 import NavbarComponent from '../components/NavbarComponent';
-import mustWatch from '../images/mustWatch.png';
-import gamingStore from '../images/gamingStore.png';
-import quizAE from '../images/quizAE.png';
+import mustWatch from '../images/mustWatch.jpg';
+import gamingStore from '../images/gamingStore.jpg';
+import kingpudding from '../images/kingpudding.jpg';
 
 export default function Projects() {
   return (
@@ -15,10 +15,10 @@ export default function Projects() {
         <div className='projects-style'>
           <a
             target='_blank'
-            href='https://must-watch-81fcf.web.app/'
+            href='https://kingpudding.netlify.app/'
             rel='noopener noreferrer'
           >
-            <img src={mustWatch} alt='mustWatchImage' />
+            <img src={kingpudding} alt='kingpuddingImage' />
           </a>
           <a
             target='_blank'
@@ -29,10 +29,10 @@ export default function Projects() {
           </a>
           <a
             target='_blank'
-            href='https://quiz-about-everything.netlify.app/'
+            href='https://must-watch-81fcf.web.app/'
             rel='noopener noreferrer'
           >
-            <img src={quizAE} alt='quizAEImage' />
+            <img src={mustWatch} alt='mustWatchImage' />
           </a>
         </div>
       </div>

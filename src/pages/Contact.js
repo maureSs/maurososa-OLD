@@ -94,7 +94,7 @@ export default function Contact() {
                 <a
                   href='mailto:maurososa118@gmail.com'
                   className='open-form-button'
-                  style={{ fontSize: 15 }}
+                  style={{ fontSize: 15, height: 45 }}
                 >
                   SEND ME AN EMAIL!
                 </a>

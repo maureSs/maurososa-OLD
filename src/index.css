@@ -842,6 +842,7 @@ details[open]::before {
     width: 100px;
     height: 50px;
     font-size: 15px;
+    margin-bottom: 270px;
   }
 }
 
@@ -874,7 +875,7 @@ details[open]::before {
 @media (max-width: 480px) {
   .message-input {
     width: 185px;
-    height: 60px;
+    height: 50px;
     font-size: 15px;
   }
 }

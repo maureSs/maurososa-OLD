@@ -588,7 +588,7 @@ body {
 
 .button-wrapper {
   position: fixed;
-  top: 40%;
+  top: 35%;
   left: 58%;
   transform: translate(-50%, -50%);
 }
@@ -636,6 +636,23 @@ body {
   }
 }
 
+.open-form-button:hover {
+  width: 200px;
+  border: 3px solid #5de7d4;
+  background: transparent;
+  color: #5de7d4;
+}
+
+.open-form-button:hover + .icon {
+  border: 3px solid #5de7d4;
+  right: -25%;
+}
+
+.cancel-button {
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .icon {
   width: 50px;
   height: 50px;
@@ -656,18 +673,6 @@ body {
   transform: rotate(-45deg);
   fill: #5de7d4;
   transition: all 0.35s;
-}
-
-.open-form-button:hover {
-  width: 200px;
-  border: 3px solid #5de7d4;
-  background: transparent;
-  color: #5de7d4;
-}
-
-.open-form-button:hover + .icon {
-  border: 3px solid #5de7d4;
-  right: -25%;
 }
 
 .contact-container {

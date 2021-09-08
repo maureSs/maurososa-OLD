@@ -206,7 +206,7 @@ summary::before {
 }
 summary::after {
   content: '|||';
-  letter-spacing: -1px;
+  letter-spacing: 1px;
 }
 summary:hover {
   transform: scale(1.1);

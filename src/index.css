@@ -717,7 +717,7 @@ details[open]::before {
 }
 @media (max-width: 480px) {
   .button-wrapper {
-    top: 20%;
+    top: 40%;
     left: 50%;
   }
 }

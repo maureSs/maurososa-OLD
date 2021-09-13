@@ -27,10 +27,10 @@ export const Wrapper = styled.div`
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     @media (max-width: 480px) {
-      width: 300px;
+      width: 220px;
       height: 400px;
-      font-size: 15px;
-      margin-left: 70px;
+      font-size: 14px;
+      margin-left: 110px;
       margin-top: 0px;
     }
     @media (min-width: 769px) and (max-width: 1400px) {

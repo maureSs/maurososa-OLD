@@ -24,7 +24,7 @@ body {
 @media (max-width: 480px) {
   .main-container {
     min-height: 400px;
-    margin: 25px auto;
+    margin: 40px auto;
     border: 5px;
     border-radius: 15px;
     padding: 10px;

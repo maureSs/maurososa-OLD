@@ -4,7 +4,7 @@ import Home from '../pages/Home';
 
 export default function Dashboard() {
   return (
-    <div>
+    <div className='body-container'>
       <div className='main-container'>
         <NavbarComponent />
         <Home />

@@ -27,10 +27,9 @@ export default function About() {
             Hey Hello!
             <br />
             My name is Mauro, and I am a Front-end developer from Buenos Aires,
-            Argentina. I aspire to be a software developer in the future. Over
-            time I realized that I love learning new technologies and being able
-            to implement them in my projects, in order to create fun and useful
-            applications.
+            Argentina. Over time I realized that I love learning new
+            technologies and being able to implement them in my projects, in
+            order to create fun and useful applications.
             <div>
               <img src={hacker} alt='' />
             </div>

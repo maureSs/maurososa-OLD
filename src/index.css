@@ -5,6 +5,7 @@
 
 body {
   background-color: #464360;
+  overflow: hidden;
 }
 
 /* Home */
@@ -24,7 +25,7 @@ body {
 @media (max-width: 480px) {
   .main-container {
     min-height: 400px;
-    margin: 40px auto;
+    margin: 25px auto;
     border: 5px;
     border-radius: 15px;
     padding: 10px;

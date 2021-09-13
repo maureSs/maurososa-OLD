@@ -1,5 +1,9 @@
 import React from 'react';
+// React Router
 import { Link } from 'react-router-dom';
+// styles
+import { Wrapper } from './NavbarComponent.styles';
+// Icons
 import { AiOutlineHome } from 'react-icons/ai';
 import { RiUser3Line } from 'react-icons/ri';
 import { MdFolderOpen } from 'react-icons/md';
@@ -7,7 +11,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 export default function NavbarComponent() {
   return (
-    <>
+    <Wrapper>
       <div className='navbar'>
         <h1 className='title'>Mauro</h1>
         <div className='vl'></div>
@@ -71,26 +75,6 @@ export default function NavbarComponent() {
         </ul>
         <h4>&#169; 2021 Mauro Sosa</h4>
       </div>
-      <div className='mobile-nav-container'>
-        <details>
-          <summary></summary>
-          <nav className='mobile-menu'>
-            <Link to='/' className='nav-item'>
-              <p>Home</p>
-            </Link>
-            <Link to='/about' className='nav-item'>
-              <p>About</p>
-            </Link>
-            <Link to='/projects' className='nav-item'>
-              <p>Projects</p>
-            </Link>
-            <Link to='/contact' className='nav-item'>
-              <p>Contact</p>
-            </Link>
-          </nav>
-        </details>
-        <h1>Mauro Sosa</h1>
-      </div>
-    </>
+    </Wrapper>
   );
 }

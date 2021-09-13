@@ -1,4 +1,5 @@
 import React from 'react';
+// images
 import me from '../images/me.png';
 import pixelMe from '../images/pixelMe.png';
 import linkedin from '../images/linkedin.png';

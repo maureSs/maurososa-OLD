@@ -23,7 +23,7 @@ body {
 }
 @media (max-width: 480px) {
   .main-container {
-    max-width: 420px;
+    max-width: 370px;
     min-height: 400px;
     margin: 25px auto;
     border: 5px;

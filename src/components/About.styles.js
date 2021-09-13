@@ -27,9 +27,9 @@ export const Wrapper = styled.div`
     font-family: 'PT Sans', sans-serif;
     text-align: center;
     @media (max-width: 480px) {
-      width: 350px;
+      width: 300px;
       height: 400px;
-      font-size: 17px;
+      font-size: 15px;
       margin-left: 70px;
       margin-top: 0px;
     }

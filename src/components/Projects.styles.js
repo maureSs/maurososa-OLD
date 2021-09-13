@@ -49,7 +49,7 @@ export const Wrapper = styled.div`
     @media (max-width: 480px) {
       font-size: 35px;
       margin-bottom: 15px;
-      margin-left: 110px;
+      margin-left: 80px;
     }
     @media (min-width: 769px) and (max-width: 1400px) {
       font-size: 25px;
@@ -103,7 +103,7 @@ export const Wrapper = styled.div`
       width: 220px;
       height: 220px;
       margin-top: 0px;
-      margin-left: 90px;
+      margin-left: 60px;
     }
     @media (min-width: 1400px) and (max-width: 1919px) {
       padding-left: 30px;
@@ -147,10 +147,10 @@ export const Wrapper = styled.div`
     margin-left: 638px;
     @media (max-width: 480px) {
       width: 300px;
-      font-size: 20px;
+      font-size: 18px;
       padding: 0%;
       margin-top: -150px;
-      margin-left: 130px;
+      margin-left: 110px;
     }
     @media (min-width: 769px) and (max-width: 1400px) {
       margin-left: 510px;

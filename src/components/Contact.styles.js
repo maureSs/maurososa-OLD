@@ -65,7 +65,7 @@ export const Wrapper = styled.div`
       height: 350px;
       font-size: 15px;
       margin-bottom: 0px;
-      margin-left: 150px;
+      margin-left: 110px;
     }
   }
 
@@ -89,7 +89,7 @@ export const Wrapper = styled.div`
     left: 58%;
     transform: translate(-50%, -50%);
     @media (max-width: 480px) {
-      top: 22%;
+      top: 40%;
       left: 55%;
     }
     @media (min-width: 769px) and (max-width: 1400px) {

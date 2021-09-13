@@ -150,7 +150,7 @@ export const Wrapper = styled.div`
       font-size: 15px;
       padding: 0%;
       margin-top: -150px;
-      margin-left: 130px;
+      margin-left: 122px;
     }
     @media (min-width: 769px) and (max-width: 1400px) {
       margin-left: 510px;

@@ -89,7 +89,7 @@ export const Wrapper = styled.div`
     left: 58%;
     transform: translate(-50%, -50%);
     @media (max-width: 480px) {
-      top: 36%;
+      top: 31%;
       left: 60%;
     }
     @media (min-width: 769px) and (max-width: 1400px) {

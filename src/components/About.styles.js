@@ -41,8 +41,10 @@ export const Wrapper = styled.div`
       margin-top: 45px;
     }
     @media (min-width: 1400px) and (max-width: 1919px) {
-      margin-left: 400px;
+      max-width: 600px;
+      margin-left: 350px;
       margin-top: 40px;
+      font-size: 18px;
     }
   }
 

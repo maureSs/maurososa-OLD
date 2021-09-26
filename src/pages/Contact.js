@@ -45,7 +45,7 @@ export default function Contact() {
         <Link to='/' className='navbar-item'>
           <RiCloseLine className='go-back' />
         </Link>
-        <h2>Contact me</h2>
+        <h2>CONTACT ME</h2>
         <div className='contact-container'>
           {showForm ? (
             <form onSubmit={sendEmail}>

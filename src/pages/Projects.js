@@ -25,7 +25,7 @@ export default function Projects() {
         </Link>
         <div className='projects-container'>
           <h2 className='projects-title'>
-            <p className='title'>Projects</p>{' '}
+            <p className='title'>PROJECTS</p>{' '}
           </h2>
           <div className='projects-style'>
             <a

@@ -23,7 +23,7 @@ export default function About() {
             <RiCloseLine className='go-back' />
           </Link>
           <div className='about-container'>
-            <h2>About</h2>
+            <h2>ABOUT</h2>
             Hey Hello!
             <br />
             My name is Mauro, and I am a Front-end developer from Buenos Aires,

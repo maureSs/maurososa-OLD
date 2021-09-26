@@ -8,10 +8,11 @@ export const Wrapper = styled.div`
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 33px;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 45px;
     @media (max-width: 480px) {
-      font-size: 30px;
+      font-size: 25px;
       margin-bottom: 30px;
     }
   }

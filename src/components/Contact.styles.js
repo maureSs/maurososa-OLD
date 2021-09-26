@@ -17,11 +17,12 @@ export const Wrapper = styled.div`
   }
 
   h2 {
-    font-size: 40px;
+    font-size: 33px;
+    font-family: 'Lato', sans-serif;
     text-align: center;
     margin-left: 300px;
     @media (max-width: 480px) {
-      font-size: 30px;
+      font-size: 25px;
       text-align: center;
       margin-bottom: 30px;
       margin-left: 50px;

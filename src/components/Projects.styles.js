@@ -42,30 +42,29 @@ export const Wrapper = styled.div`
 
   .projects-title {
     display: flex;
-    font-size: 40px;
-    font-family: 'Ink Free';
+    width: 100%;
+    font-size: 33px;
+    font-family: 'Lato', sans-serif;
     margin-bottom: 0;
-    margin-left: 105px;
+    margin-left: -70px;
     @media (max-width: 480px) {
-      font-size: 35px;
+      font-size: 25px;
       margin-bottom: 15px;
-      margin-left: 80px;
+      margin-left: -30px;
     }
     @media (min-width: 769px) and (max-width: 1400px) {
       font-size: 25px;
-      margin-left: 140px;
+      margin-left: -40px;
       margin-bottom: 10px;
     }
     @media (min-width: 1400px) and (max-width: 1919px) {
       font-size: 35px;
-      margin-left: 165px;
+      margin-left: 0px;
     }
   }
 
   .title {
-    padding-left: 49px;
-    padding-right: 60px;
-    padding-top: -50px;
+    margin: 0 auto;
     @media (max-width: 480px) {
       padding-left: 0px;
     }

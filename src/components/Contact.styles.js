@@ -68,6 +68,9 @@ export const Wrapper = styled.div`
       margin-bottom: 0px;
       margin-left: 110px;
     }
+    @media (min-width: 1024px) and (max-width: 1400px) {
+      height: 400px;
+    }
   }
 
   .form-control input {
@@ -81,6 +84,9 @@ export const Wrapper = styled.div`
     @media (max-width: 480px) {
       width: 180px;
       font-size: 15px;
+    }
+    @media (min-width: 1024px) and (max-width: 1400px) {
+      width: 440px;
     }
   }
 
@@ -182,6 +188,10 @@ export const Wrapper = styled.div`
       height: 70px;
       font-size: 15px;
     }
+    @media (min-width: 1024px) and (max-width: 1400px) {
+      height: 80px;
+      width: 450px;
+    }
   }
 
   .submit-btn {
@@ -198,6 +208,9 @@ export const Wrapper = styled.div`
     border: none;
     border-radius: 10px;
     margin-left: 5px;
+    @media (min-width: 1024px) and (max-width: 1400px) {
+      max-width: 450px;
+    }
   }
 
   .submit-btn:hover {

@@ -21,7 +21,13 @@ export const Wrapper = styled.div`
     font-family: 'Lato', sans-serif;
     text-align: center;
     margin-left: 300px;
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
+      font-size: 22px;
+      text-align: center;
+      margin-bottom: 22px;
+      margin-left: 50px;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
       font-size: 25px;
       text-align: center;
       margin-bottom: 30px;
@@ -38,7 +44,13 @@ export const Wrapper = styled.div`
     justify-content: center;
     align-items: center;
     margin-left: 500px;
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
+      width: 200px;
+      height: 320px;
+      margin-left: 100px;
+      margin-top: 0px;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
       width: 300px;
       height: 350px;
       margin-left: 80px;
@@ -147,7 +159,11 @@ export const Wrapper = styled.div`
   .cancel-button {
     font-size: 20px;
     cursor: pointer;
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
+      font-size: 18px;
+      margin-left: 160px;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
       margin-left: 150px;
     }
   }
@@ -183,7 +199,12 @@ export const Wrapper = styled.div`
     border-radius: 5px;
     outline: none;
     resize: none;
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
+      width: 185px;
+      height: 50px;
+      font-size: 15px;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
       width: 185px;
       height: 70px;
       font-size: 15px;

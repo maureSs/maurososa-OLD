@@ -16,7 +16,15 @@ export const Wrapper = styled.div`
     margin-top: 15px;
     font-size: 18px;
     padding-left: 85px;
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
+      width: 300px;
+      height: 450px;
+      font-size: 14px;
+      margin-left: -20px;
+      margin-top: 0px;
+      overflow: auto;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
       width: 350px;
       height: 450px;
       font-size: 14px;
@@ -47,7 +55,12 @@ export const Wrapper = styled.div`
     font-family: 'Lato', sans-serif;
     margin-bottom: 0;
     margin-left: -70px;
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
+      font-size: 25px;
+      margin-bottom: 15px;
+      margin-left: -10px;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
       font-size: 25px;
       margin-bottom: 15px;
       margin-left: -30px;
@@ -144,7 +157,14 @@ export const Wrapper = styled.div`
     margin-top: 10px;
     padding: 2% 2% 2% 2%;
     margin-left: 638px;
-    @media (max-width: 480px) {
+    @media (max-width: 320px) {
+      width: 300px;
+      font-size: 15px;
+      padding: 0%;
+      margin-top: -150px;
+      margin-left: 100px;
+    }
+    @media (min-width: 321px) and (max-width: 480px) {
       width: 300px;
       font-size: 15px;
       padding: 0%;

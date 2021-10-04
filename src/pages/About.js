@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 // React Router
 import { Link } from 'react-router-dom';
 // components
 import NavbarComponent from '../components/NavbarComponent';
 // styles
 import { Wrapper } from '../components/About.styles';
-// images
-import hacker from '../images/hacker.png';
-// icons
+// icons & images
 import { RiCloseLine } from 'react-icons/ri';
+import js from '../images/js.svg';
+import ts from '../images/ts.svg';
+import react from '../images/react.svg';
+import webpack from '../images/webpack.svg';
 
 export default function About() {
+  const [showExperienceInfo, setShowExperienceInfo] = useState(false);
+  const [showSkillsInfo, setShowSkillsInfo] = useState(false);
+
   return (
     <>
       <div className='main-container'>
@@ -24,15 +29,45 @@ export default function About() {
           </Link>
           <div className='about-container'>
             <h2>ABOUT</h2>
-            Hey Hello!
+            Hey Hello! It's Mauro!
             <br />
-            My name is Mauro, and I am a Front-end developer from Buenos Aires,
-            Argentina. Over time I realized that I love learning new
-            technologies and being able to implement them in my projects, in
-            order to create fun and useful applications.
-            <div>
-              <img src={hacker} alt='' />
-            </div>
+            I'm a Frontend developer from Buenos Aires, Argentina. I usually
+            work with React / Redux but I love learning new technologies and
+            tools.
+            <br />
+            22 years old in love with the technology.
+            {showExperienceInfo ? (
+              <h3 className='exp-position'>
+                {' '}
+                +1 year developing as a Frontend developer{' '}
+              </h3>
+            ) : (
+              <div className='first-button-container'>
+                <button
+                  className='btn'
+                  onClick={() => setShowExperienceInfo(!showExperienceInfo)}
+                >
+                  Experience
+                </button>
+              </div>
+            )}
+            {showSkillsInfo ? (
+              <div className='icons-container'>
+                <img className='icon-design' src={js} alt='JavaScript' />
+                <img className='icon-design' src={ts} alt='TypeScript' />
+                <img className='icon-design' src={react} alt='React' />
+                <img className='icon-design' src={webpack} alt='Webpack' />
+              </div>
+            ) : (
+              <div className='second-button-container'>
+                <button
+                  className='btn'
+                  onClick={() => setShowSkillsInfo(!showSkillsInfo)}
+                >
+                  Languages and Tools
+                </button>
+              </div>
+            )}
           </div>
         </Wrapper>
       </div>

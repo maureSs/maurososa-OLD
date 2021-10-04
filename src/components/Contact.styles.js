@@ -108,8 +108,8 @@ export const Wrapper = styled.div`
     left: 58%;
     transform: translate(-50%, -50%);
     @media (max-width: 480px) {
-      top: 31%;
-      left: 60%;
+      top: 10%;
+      left: 58%;
     }
     @media (min-width: 769px) and (max-width: 1400px) {
       top: 30%;
@@ -123,6 +123,12 @@ export const Wrapper = styled.div`
 
   .link-wrapper {
     position: relative;
+  }
+
+  .mobile-display {
+    @media (max-width: 768px) {
+      display: none;
+    }
   }
 
   .open-form-button {
@@ -246,6 +252,29 @@ export const Wrapper = styled.div`
       margin-bottom: 5px;
       margin-top: 10px;
       font-size: 15px;
+    }
+  }
+
+  .social-icons {
+    width: 270px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 35px;
+    @media (min-width: 769px) {
+      display: none;
+    }
+    @media (max-width: 320px) {
+      width: 200px;
+      margin-left: 5px;
+      margin-top: 60px;
+    }
+  }
+
+  .social-icons img {
+    width: 40px;
+    padding-left: 30px;
+    @media (max-width: 320px) {
+      width: 25px;
     }
   }
 

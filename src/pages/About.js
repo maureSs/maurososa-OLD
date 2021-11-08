@@ -10,7 +10,7 @@ import { RiCloseLine } from 'react-icons/ri';
 import js from '../images/js.svg';
 import ts from '../images/ts.svg';
 import react from '../images/react.svg';
-import webpack from '../images/webpack.svg';
+import redux from '../images/redux.svg';
 
 export default function About() {
   const [showExperienceInfo, setShowExperienceInfo] = useState(false);
@@ -35,11 +35,11 @@ export default function About() {
             work with React / Redux but I love learning new technologies and
             tools.
             <br />
-            22 years old in love with the technology.
+            22 y/o in love with the technology.
             {showExperienceInfo ? (
               <h3 className='exp-position'>
                 {' '}
-                +1 year developing as a Frontend developer{' '}
+                +1.5 years developing as a Frontend developer{' '}
               </h3>
             ) : (
               <div className='first-button-container'>
@@ -56,7 +56,7 @@ export default function About() {
                 <img className='icon-design' src={js} alt='JavaScript' />
                 <img className='icon-design' src={ts} alt='TypeScript' />
                 <img className='icon-design' src={react} alt='React' />
-                <img className='icon-design' src={webpack} alt='Webpack' />
+                <img className='icon-design' src={redux} alt='Redux' />
               </div>
             ) : (
               <div className='second-button-container'>

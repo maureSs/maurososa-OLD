@@ -10,7 +10,7 @@ import { RiCloseLine } from 'react-icons/ri';
 import js from '../images/js.svg';
 import ts from '../images/ts.svg';
 import react from '../images/react.svg';
-import redux from '../images/redux.svg';
+import next from '../images/next.svg';
 
 export default function About() {
   const [showExperienceInfo, setShowExperienceInfo] = useState(false);
@@ -31,11 +31,11 @@ export default function About() {
             <h2>ABOUT</h2>
             Hey Hello! It's Mauro!
             <br />
-            I'm a Frontend developer from Buenos Aires, Argentina. I usually
-            work with React / Redux but I love learning new technologies and
+            I'm a Frontend developer from Buenos Aires, Argentina. I mainly
+            work with React / Next.js but I love learning new technologies and
             tools.
             <br />
-            22 y/o in love with the technology.
+            23 y/o in love with the technology.
             {showExperienceInfo ? (
               <h3 className='exp-position'>
                 {' '}
@@ -56,7 +56,7 @@ export default function About() {
                 <img className='icon-design' src={js} alt='JavaScript' />
                 <img className='icon-design' src={ts} alt='TypeScript' />
                 <img className='icon-design' src={react} alt='React' />
-                <img className='icon-design' src={redux} alt='Redux' />
+                <img className='icon-design' src={next} alt='Next' />
               </div>
             ) : (
               <div className='second-button-container'>
